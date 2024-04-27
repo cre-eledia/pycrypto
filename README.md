@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a simple python GUI application that helps you keeping track of a crypto currency portfolio. It uses the CapCoin API to get the latest prices of the coins and calculates the total value of your portfolio.
+This is a simple python GUI application that helps you keeping track of a crypto currency portfolio. It uses the CoinMarketCap API to get the latest prices of the coins and calculates the total value of your portfolio.
 
 ## Installation
 
