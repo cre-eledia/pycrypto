@@ -164,7 +164,6 @@ def my_portfolio():
     amount_update.grid(row=current_row+4, column=3)
     price_update = Entry(pycrypto, borderwidth=2, relief="groove")
     price_update.grid(row=current_row+4, column=2)
-    # insert update coin Button
     # update coin Button
     update_coin_btn = Button(pycrypto, text="Coin aktualisieren", bg="#142E54", fg="white", font="Helvetica 12", padx="2", pady="2", borderwidth=2, relief="groove",
                              command=lambda: update_coin(portid_update.get(), symbol_update.get(), amount_update.get(), price_update.get()))
